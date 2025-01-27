@@ -1,5 +1,10 @@
-# Pizza-Sales-SQL
-## Basic question:
+# Project Report: Pizza Sales Analysis Using SQL
+
+# Introduction
+
+The objective of this project was to analyze the performance and trends of a pizza sales business using SQL. By querying the database, we aimed to derive insights about order volumes, revenue generation, customer preferences, and sales patterns. The findings from the analysis can help in making data-driven
+
+## Basic Analysis
   
   1. Retrieve the total number of orders placed.
 
@@ -149,4 +154,8 @@
     group by pizza_types.category, pizza_types.name_of_pizza) as sale ) as b
     where ra <=3
     ;
+
+# Conclusion
+
+  The SQL-based analysis provided actionable insights into order patterns, revenue generation, and customer preferences. Key takeaways include identifying the most popular pizzas, peak order times, and revenue contributions across categories. These insights can help improve operational efficiency, optimize inventory, and tailor marketing strategies. Furthermore, advanced queries such as cumulative revenue analysis and category-wise rankings offer deeper business intelligence to support long-term growth and decision-making. By leveraging data-driven insights, the pizza business can maintain a competitive edge and drive sustainable success.
 
